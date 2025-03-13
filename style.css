@@ -48,3 +48,9 @@ padding: 24px  0;
 .logo{
     
 }
+.imagem-insta,
+.imagem-watts {
+    width: 50px; /* Define um tamanho fixo */
+    height: 50px; /* Mantém a proporção */
+    object-fit: cover; /* Evita distorção */
+}
