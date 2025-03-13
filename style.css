@@ -54,3 +54,19 @@ padding: 24px  0;
     height: 50px; /* Mantém a proporção */
     object-fit: cover; /* Evita distorção */
 }
+section:last-of-type {
+    background-color: #D8A7D9;  /* Cor de fundo lilás */
+    padding: 20px 0;             /* Espaço interno (topo e fundo) */
+    text-align: center;          /* Centraliza o conteúdo */
+    color: white;                /* Cor do texto */
+}
+
+section:last-of-type a {
+    margin: 0 10px;              /* Espaçamento entre os ícones */
+}
+
+section:last-of-type img {
+    width: 40px;                 /* Tamanho dos ícones */
+    height: 40px;                /* Tamanho dos ícones */
+    object-fit: cover;           /* Para garantir que a imagem não distorça */
+}
